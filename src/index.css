@@ -2,3 +2,215 @@
   padding: 0;
   margin: 0;
 }
+
+.no-style{
+  text-decoration: none;
+}
+
+
+.main-div{
+overflow: scroll;
+width:100vw;
+height: 100vh;
+background-color: #F2F4C0;  
+}
+
+.logo-search-filter{
+  display: flex;
+}
+
+.userID {
+padding: 18px 25px;
+border-radius: 10px;
+  
+}
+
+#Menubar{
+  display: flex;
+  margin-right: 0px;
+  background-color: #FFD31D;
+  max-height: 80px;
+ }
+
+.drop_button{
+  font-family: Montserrat;
+  margin-top: 35px;
+  margin-right: 1200px;
+}
+
+.dropdown{
+z-index: 5;
+position: absolute;
+margin-top: 7px;
+margin-left: 90px;
+border-style: solid;
+border-width: 1px;
+border-color: grey;
+width: 220px;
+}
+
+
+.itemlist{
+  z-index: 5;
+  position: relative;
+  align-items: center;
+  font-family: Montserrat;
+  border-top: 2px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #DFD8CA;
+  border-style: solid;
+  margin-bottom: 0px;
+  background-color: #F7F7F7;
+  padding: 0px 10px 2px;
+  width: 200px;
+
+}
+
+.itemlist :hover{
+   font-weight: bolder;
+}
+
+.Litext{
+cursor: pointer;
+text-align: center;
+}
+
+
+.menu{
+  
+  cursor: pointer;
+  color: #FBF3E4;
+  font-size: 22px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.MenuList :hover{
+  font-size: 25px;
+}
+.sell :hover{
+  font-size: 30px;
+}
+
+.logo{
+  margin-top: 50px;
+  margin-left: 80px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 150px;
+}
+
+.searchbar{
+
+  display: inline;
+  width: 605px;
+  padding-top: 150px;
+  padding-left: 200px;
+}
+
+.search-field{
+  width: 600px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.search-button{
+  margin-top: 150px ;
+  margin-left: 40px;
+  border-radius: 30px;
+  display: inline;
+  height: 60px;
+  width: 70px;
+  
+}
+
+.filter-bar{
+  margin-top: 152px;
+  margin-left: 50px;
+  
+}
+
+.filter_drop_button{
+  border-radius: 20px;
+  margin-left: 50px;
+  width: 300px;
+  height: 50px;
+}
+
+.display
+{ padding-left: 40px;
+  margin-top: 120px;
+  height: 300px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.bid-item{
+border-color: #F2FA5A;
+border-style: solid;
+border-width: 1px;
+/* display: inline; */
+background-color: white;
+margin: 20px;
+height: 750px;
+width: 600px;
+flex-basis: 20%;
+}
+
+.card{
+  padding-top: 100px;
+  padding-left: 130px;
+  padding-bottom: 0px;
+}
+
+
+.card-img-top{
+padding-left: 30px;
+height: 300px;
+width: 280px;
+}
+
+.card-title{
+  padding-left: 60px;
+  font-size: 30px;
+}
+.card-description{
+  height: 80px;
+  font-size: 20px;
+}
+
+.place-bid-button-container :hover{
+  cursor: pointer;
+  height: 40px;
+  width: 220px;
+
+}
+.place-bid-button{
+  margin-top: 60px;
+  height: 40px;
+  width: 230px;
+  border-radius: 20px;
+}
+
+.Heart-icon{
+  padding-top: 50px;
+  padding-left: 100px;
+  height: 30px ;
+  width: 30px;
+}
+
+.wishlist{
+
+  margin-left: 80px;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+

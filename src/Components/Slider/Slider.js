@@ -1,10 +1,8 @@
 import React, { useRef } from "react";
 import "./Slider.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import useSlider from "../hooks/useSlider";
-import Login from "./Login/Login";
-import img from "../left.png";
-import img1 from "../right.png";
+import useSlider from "../../hooks/useSlider";
+// import Login from "../Login/Login";
 
 const Slider = ({ images }) => {
   const slideImage = useRef(null);

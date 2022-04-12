@@ -1,0 +1,10 @@
+/* #bid-details
+{
+    display: flex;
+} */
+
+.item-details
+{
+    display: flex;
+    flex-direction: column;
+}

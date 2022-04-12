@@ -1,5 +1,3 @@
-import img1 from "./gat.png";
-
 export default [
     {
       src: "https://cdn.pixabay.com/photo/2022/01/27/21/45/antiquities-6973193__480.jpg",
